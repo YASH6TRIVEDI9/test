@@ -87,12 +87,12 @@ def combination_of_sentences(cool_list):
 
 
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
 
-#     with open("my_list.txt") as f:
-#         my_list = f.read()
-#         my_list = eval(my_list)
+    with open("my_list.txt") as f:
+        my_list = f.read()
+        my_list = eval(my_list)
 
-#     THRESHOLD_VALUE = 10
+    THRESHOLD_VALUE = 10
 
-#     combination_of_sentences(my_list)
+    combination_of_sentences(my_list)
