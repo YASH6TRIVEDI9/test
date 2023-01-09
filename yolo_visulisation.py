@@ -39,5 +39,5 @@ for txt_file in glob.glob("labelTxt/*"):
 
             cv2.imwrite(f"rec{i}.png", rec)
     i += 1
-    if i == 50:
+    if i == 5:
         break
